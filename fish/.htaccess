@@ -1,8 +1,0 @@
-RewriteEngine    on
-RewriteCond    %{HTTP_REFERER} !^$
-RewriteCond    %{HTTP_REFERER} !^http://([-a-z0-9]+\.)?soulsphere\.org [NC]
-RewriteCond    %{HTTP_REFERER} !^http://([-a-z0-9]+\.)?despayre\.org [NC]
-RewriteCond    %{HTTP_REFERER} !^http://([-a-z0-9]+\.)?alcopop\.org [NC]
-RewriteCond    %{HTTP_REFERER} !^http://([-a-z0-9]+\.)?google\.com [NC]
-RewriteCond    %{HTTP_REFERER} !^http://([-a-z0-9]+\.)?doomworld\.com [NC]
-RewriteRule    (gif|png|jpg)$ /img/lame/goatse.jpg [NC,L]
